@@ -1,0 +1,10 @@
+חיה הילמן
+1. docker build -t greeter:v1 \02-docker-basics\homework\greeter\dockerfile
+2. docker run -d -p 9000:80 --name greeter python:3.11-slim
+3. לא יודעת. אולי לשנות בתוך הקוד?
+4. Shalom Rivka
+5. שלבים 1-4 (from, workdir,copy,run) יסומנו cached והשאר ירוצו מחדש.
+מדוע? כי מה שלא שונה הוא לוקח ממה שכבר יש לו אבל ברגע שיש שינוי הוא כותב מחדש עד הסוף.
+
+
+
